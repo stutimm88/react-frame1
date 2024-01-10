@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+:root {
+    --bgcolor: #ffffff;
+    --primary-color: #0a66c2;
+    --text-color: #000000;
+    
+  }
+
+html {
+    font-size: 90%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000000;
+  }
+
+
+  .navbar-bg{
+    background-color: white;
+    padding: 1rem 0; 
+    z-index: 99;
+    position: relative;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  /* --------------------------------- Header section  starts-------------------------------*/
+
+
+header {
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .main-header-container {
+    height: 90vh;
+    display: flex;
+    /* background-color: aqua; */
+  }
+  
+  .main-header-container h5 {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .main-header-para { 
+    font-size: 1rem;
+    color: black;
+    margin: 2rem 0 4rem 0;
+    font-weight: lighter;
+    width: 100%;
+  }
+  
+  
+  /* --------------------------------- Header sEction  ends -------------------------------------*/
